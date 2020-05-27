@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'fucntionARmPipelines'
     location: 'Central US'
     templateLocation: 'Linked artifact'
-    csmFile: 'diocamMainTemplate'
+    csmFile: 'diocamMainTemplate.json'
     overrideParameters: '-projectName DiocamAzureRmPipeline-repo -linkedTemplateUri https://raw.githubusercontent.com/joseocampo/DiocamAzureRmPipeline-repo/master/CreateWebApp/diocamLinkedTemplate.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
