@@ -20,7 +20,7 @@ steps:
     location: 'Central US'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/diocamMainTemplate.json'
-    overrideParameters: '-projectName Diocam -linkedTemplateUri https://raw.githubusercontent.com/joseocampo/DiocamAzureRmPipeline-repo/master/CreateWebApp/diocamLinkedTemplate.json'
+    overrideParameters: '-projectName didi -linkedTemplateUri https://raw.githubusercontent.com/joseocampo/DiocamAzureRmPipeline-repo/master/CreateWebApp/diocamLinkedTemplate.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
     addSpnToEnvironment: true
